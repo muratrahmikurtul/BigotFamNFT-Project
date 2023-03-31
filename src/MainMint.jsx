@@ -50,10 +50,10 @@ const MainMint = ({ accounts, setAccounts }) => {
                         <div>
                             <Flex align='center' justify='center'>
                             <Button
-                                backgroundColor='#371414'
+                                backgroundColor='white'
                                 borderRadius='5px'
-                                boxShadow='0px 2px 2px 1px #0F0F0F'
-                                color='white'
+                                boxShadow='0px 2px 2px 1px #D64424'
+                                color='#D64424'
                                 cursor={"pointer"}
                                 fontFamily={"inherit"}
                                 padding='15px'
@@ -70,14 +70,15 @@ const MainMint = ({ accounts, setAccounts }) => {
                                 height='40px'
                                 textAlign='center'
                                 marginTop='10px'
+                                paddingLeft='18px'
                                 type="number"
                                 value={mintAmount}
                             />
                             <Button
-                                backgroundColor='#371414'
+                                backgroundColor='white'
                                 borderRadius='5px'
-                                boxShadow='0px 2px 2px 1px #0F0F0F'
-                                color='white'
+                                boxShadow='0px 2px 2px 1px #D64424'
+                                color='#D64424'
                                 cursor={"pointer"}
                                 fontFamily={"inherit"}
                                 padding='15px'
@@ -89,9 +90,9 @@ const MainMint = ({ accounts, setAccounts }) => {
                             </Button>
                         </Flex>
                         <Button
-                            backgroundColor='#371414'
+                            backgroundColor='#FA8072'
                             borderRadius='5px'
-                            boxShadow='0px 2px 2px 1px #0F0F0F'
+                            boxShadow='0px 2px 2px 1px #FA8072'
                             color='white'
                             cursor={"pointer"}
                             fontFamily={"inherit"}

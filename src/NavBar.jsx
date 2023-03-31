@@ -22,7 +22,7 @@ const NavBar = ({ accounts, setAccounts }) => {
             </Flex>
 
             {isConnected ? (
-                <Box margin="0 15px">Connected</Box>
+                <Box margin="0 15px" fontSize="30px">Connected</Box>
             ) : (
                 <Button
                     backgroundColor="white"
@@ -34,7 +34,7 @@ const NavBar = ({ accounts, setAccounts }) => {
                     padding="15px"
                     margin="0 15px"
                     onClick={connectAccount}
-                >Connect</Button>
+                >Connect Wallet</Button>
             )
             }
         </Flex>
